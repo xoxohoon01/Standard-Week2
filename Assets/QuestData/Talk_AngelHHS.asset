@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9e32c714b52db245a71e7729d524c93, type: 3}
-  m_Name: MonsterQuestData
+  m_Script: {fileID: 11500000, guid: a559292195991104790204d0ecbf237f, type: 3}
+  m_Name: Talk_AngelHHS
   m_EditorClassIdentifier: 
-  QuestName: Kill Slime (x5)
-  QuestRequriedLevel: 1
+  QuestName: "\uCC9C\uC0AC\uAC00 \uB41C HHS"
+  QuestRequriedLevel: 2
   QuestNPC: 0
   QuestRequisites: 0
-  monsterAmount: 5
+  encounterTarget: "\uCC9C\uC0AC HHS"

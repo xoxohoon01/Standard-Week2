@@ -4,8 +4,12 @@ using UnityEngine;
 
 public class QuestDataSO : ScriptableObject
 {
-    [SerializeField] private string QuestName;
-    [SerializeField] private int QuestRequriedLevel;
-    [SerializeField] private int QuestNPC;
-    [SerializeField] private int QuestRequisites;
+    public string QuestName;
+    public int QuestRequriedLevel;
+    public int QuestNPC;
+    public int QuestRequisites;
+
+    public virtual void ShowContext()
+    {
+    }
 }
