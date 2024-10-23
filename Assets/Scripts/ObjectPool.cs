@@ -5,7 +5,13 @@ public class ObjectPool : MonoBehaviour
 {
     public GameObject prefab;
     private List<GameObject> pool = new List<GameObject>();
+    private Dictionary<string, List<GameObject>> pools = new Dictionary<string, List<GameObject>>();
     public int poolSize = 300;
+
+    private void Awake()
+    {
+        pools.Add("Monster", pool);
+    }
 
     void Start()
     {
